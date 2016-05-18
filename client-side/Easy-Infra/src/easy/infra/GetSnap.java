@@ -1,5 +1,4 @@
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
+package easy.infra;
 
 /**
  * @author Abhilash.S
