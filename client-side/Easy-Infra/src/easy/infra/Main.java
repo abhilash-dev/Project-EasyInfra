@@ -19,7 +19,11 @@ public class Main implements Constants
     public static void main(String args[])
     {
     	String  junctionName = null;
-    	// Fetching junction names from the junctions.txt file in the current working directory
+    	/**
+    	 *  Fetching junction names from the junctions.txt file in the current working directory
+    	 *  Author: Adithya B
+    	 *  Changes Made: reading junction names from a file and creating junction object. 
+    	 **/
     	try{
 			BufferedReader customReader = new BufferedReader(new FileReader(junctionFile));
 			while ((junctionName = customReader.readLine()) != null) {
