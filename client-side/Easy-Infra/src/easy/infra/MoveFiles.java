@@ -1,3 +1,5 @@
+package easy.infra;
+
 import java.io.*;
 import java.io.FilenameFilter;
 import java.io.FileInputStream;

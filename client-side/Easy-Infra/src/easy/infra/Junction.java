@@ -1,11 +1,12 @@
+package easy.infra;
+
 import java.io.File;
 
 /**
  * Created by abhi on 7/4/16.
  */
-public class Junction {
+public class Junction implements Constants {
 
-    public static final String workspaceFolder = "/home/abhi/phantomjs-master/workspace";
     String junctionName;
     String junctionPath;
     String[] junctionCommand = new String[3];

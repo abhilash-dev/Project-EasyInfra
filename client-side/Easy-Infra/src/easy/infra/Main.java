@@ -1,5 +1,4 @@
-import java.sql.Connection;
-import java.sql.SQLException;
+package easy.infra;
 
 /**
  * Created by abhi on 21/2/16.

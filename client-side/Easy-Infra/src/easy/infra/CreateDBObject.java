@@ -1,4 +1,4 @@
-/**
+package easy.infra; /**
  * Created by abhi on 22/2/16.
  */
 
