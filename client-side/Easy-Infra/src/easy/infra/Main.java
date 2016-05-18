@@ -22,7 +22,7 @@ public class Main implements Constants
     	/**
     	 *  Fetching junction names from the junctions.txt file in the current working directory
     	 *  Author: Adithya B
-    	 *  Changes Made: reading junction names from a file and creating junction object. 
+    	 *  Changes Made: reading junction names from a file && creating junction object. 
     	 **/
     	try{
 			BufferedReader customReader = new BufferedReader(new FileReader(junctionFile));
