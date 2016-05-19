@@ -1,4 +1,8 @@
 package easy.infra;
+<<<<<<< HEAD:client-side/Easy-Infra/src/easy/infra/GetData.java
+=======
+
+>>>>>>> f6f13dea452a41792fa8b73f8b3bc72e6093e072:client-side/Easy-Infra/src/easy/infra/GetData.java
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
