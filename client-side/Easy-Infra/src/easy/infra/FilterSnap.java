@@ -1,4 +1,8 @@
 package easy.infra;
+<<<<<<< HEAD:client-side/Easy-Infra/src/easy/infra/FilterSnap.java
+=======
+
+>>>>>>> f6f13dea452a41792fa8b73f8b3bc72e6093e072:client-side/Easy-Infra/src/easy/infra/FilterSnap.java
 import java.io.File;
 import java.io.FilenameFilter;
 import java.io.IOException;

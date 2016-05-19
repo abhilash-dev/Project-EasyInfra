@@ -1,6 +1,4 @@
 package easy.infra;
-import java.io.BufferedReader;
-import java.io.FileReader;
 
 /**
  * Created by abhi on 21/2/16.
@@ -11,37 +9,13 @@ import java.io.FileReader;
  * @author Abhilash.S
  * @version 1.0
  */
-public class Main implements Constants 
-{
+public class Main {
     /**
      * The main method creates and executes a thread for every junction
      */
-    public static void main(String args[])
-    {
-    	String  junctionName = null;
-    	/**
-    	 *  Fetching junction names from the junctions.txt file in the current working directory
-    	 *  Author: Adithya B
-    	 *  Changes Made: reading junction names from a file && creating junction object. 
-    	 **/
-    	try{
-			BufferedReader customReader = new BufferedReader(new FileReader(junctionFile));
-			while ((junctionName = customReader.readLine()) != null) {
-				//System.out.println(junctionName);
-				Junction junction = new Junction(junctionName);
-				GetSnap snapShot = new GetSnap(junction.getJunctionName(),
-						junction.getJunctionCommand(),
-						junction.getJunctionPath());
-				snapShot.start();
-			}
-			customReader.close();
-		}catch(Exception e){
-			e.printStackTrace();
-		}
-    	
-    	
-    	// ******************************************* Alternate Code *************************************************/
-        /*Junction axatech = new Junction("axatech");
+    public static void main(String args[]){
+
+        Junction axatech = new Junction("axatech");
         GetSnap t1 = new GetSnap(axatech.getJunctionName(),axatech.getJunctionCommand(),axatech.getJunctionPath());
         t1.start();
 
@@ -59,8 +33,8 @@ public class Main implements Constants
 
         Junction silkboard = new Junction("silkboard");
         GetSnap t5 = new GetSnap(silkboard.getJunctionName(),silkboard.getJunctionCommand(),silkboard.getJunctionPath());
-        t5.start();*/
-        //*******************************************Alternate Code END *************************************************/
+        t5.start();
+
 
     }
 }
