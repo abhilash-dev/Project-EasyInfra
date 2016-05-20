@@ -1,8 +1,4 @@
 package easy.infra;
-<<<<<<< HEAD:client-side/Easy-Infra/src/easy/infra/PrintData.java
-=======
-
->>>>>>> f6f13dea452a41792fa8b73f8b3bc72e6093e072:client-side/Easy-Infra/src/easy/infra/PrintData.java
 import java.io.*;
 import java.time.LocalDate;
 import java.util.ArrayList;

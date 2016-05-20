@@ -1,9 +1,5 @@
-<<<<<<< HEAD:client-side/Easy-Infra/src/easy/infra/CreateDBObject.java
 package easy.infra;
 /**
-=======
-package easy.infra; /**
->>>>>>> f6f13dea452a41792fa8b73f8b3bc72e6093e072:client-side/Easy-Infra/src/easy/infra/CreateDBObject.java
  * Created by abhi on 22/2/16.
  */
 

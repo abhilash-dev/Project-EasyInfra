@@ -1,20 +1,11 @@
 package easy.infra;
-<<<<<<< HEAD:client-side/Easy-Infra/src/easy/infra/Junction.java
-=======
-
->>>>>>> f6f13dea452a41792fa8b73f8b3bc72e6093e072:client-side/Easy-Infra/src/easy/infra/Junction.java
 import java.io.File;
 
 /**
  * Created by abhi on 7/4/16.
  */
-<<<<<<< HEAD:client-side/Easy-Infra/src/easy/infra/Junction.java
 public class Junction implements Constants
 {
-=======
-public class Junction implements Constants {
-
->>>>>>> f6f13dea452a41792fa8b73f8b3bc72e6093e072:client-side/Easy-Infra/src/easy/infra/Junction.java
     String junctionName;
     String junctionPath;
     String[] junctionCommand = new String[3];
