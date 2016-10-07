@@ -1,5 +1,4 @@
 package easy.infra;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 
